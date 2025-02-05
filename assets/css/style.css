@@ -411,11 +411,11 @@ a:hover{
     right: 0;
     top: 0;
     bottom: 0;
-    width: 60vw;
-    background-size: contain;
+    width: 52vw;
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url(/assets/images/portrait.png);
+    background-image: url(/assets/images/portrait.png) ;
 }
 
 @media (max-width: 576px) {
@@ -432,7 +432,7 @@ a:hover{
         max-height: 250px;
         margin: 0 auto;
         border: solid 3px transparent;
-        border-radius: 50%;
+        border-radius: 5%;
         background-image: var(--primary-gradient-color), radial-gradient(circle at top left, var(--primary-color),var(--secondary-color));;
         background-origin: border-box;
         background-clip: content-box, border-box;
@@ -443,7 +443,7 @@ a:hover{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(/assets/images/portrait.webp);
+        background-image: url(/assets/images/portrait.png);
     }
 
     .hero-content{
